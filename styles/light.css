@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(217, 243, 245, 0.273);
+    transition: 1.8s all;
+   
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5%;
+    padding: 8px 8px;
+    color: rgb(232, 239, 242);
+    border: 3px solid rgba(121, 242, 236, 0.629);
+    border-radius: 5px 5px;
+    background-color: rgb(52, 49, 242);
+}
+.container{
+  width: 310px;
+}
+
+.calc-btn{
+    border: 2px solid rgb(8, 51, 241);
+    padding:5px 6px 5px 6px;
+    border-radius: 5px 5px;
+}
+.op{
+  background-color: rgb(240, 240, 138);
+}
+
+.result{
+    width:59.1%;
+}
+
+input{
+ padding: 25px;
+ color:rgb(87,87,87);
+ font-size: 1em;
+ cursor: pointer;
+ width: 70px;
+ background-color: rgba(160, 165, 165, 0.811);
+ border: none;
+ outline: none;
+ border-radius: 4px;
+}
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row{
+    margin-bottom: 2px;
+}
+input[type="button"]{
+    color: rgb(12, 0, 0);
+}
+input[type="text"]{
+    background-color: rgba(200, 245, 245, 0.811);
+    width: 218px;
+    border: 1px solid black;
+}
+input[type="button"]:hover{
+    background-color: rgb(37,35,59);
+    color:white;
+}
+#clear{
+    color:#fff;
+    background-color: rgb(255,25,25);
+    text-align: left;
+}
+button{
+    border: none;
+    background-color: rgb(41,38,38);
+    padding:9px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius:5px;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+.bottom-buttons :hover{
+    background-color: red;
+    color: black;
+    font-size: 13px;
+}
+
+.bottom-buttons{
+    display: flex;
+    margin-left: 100px;
+}

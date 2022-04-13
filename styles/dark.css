@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  ::placeholder {
+    color: rgb(221, 221, 221);
+  }
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 19, 19);
+    transition: 0.8s all;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5%;
+    color: #fff;
+    padding: 8px 8px;
+    border: 3px solid rgb(8, 51, 241);
+    border-radius: 5px 5px;
+  }
+  .container {
+    width: 310px;
+  }
+  .calc-btn{
+    border: 2px solid rgb(8, 51, 241);
+    padding:1px 0px 0px 1px;
+    border-radius: 5px 5px;
+    padding:5px 6px 5px 6px;
+}
+  .result {
+    width: 59.1%;
+  }
+  .op{
+    background-color: rgba(53, 53, 43, 0.425);
+  }
+  input {
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(47, 51, 50);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 2px;
+  }
+  input[type="text"] {
+    background-color: rgb(47, 51, 50);
+  
+    width: 218px;
+  }
+  input[type="button"]:hover {
+    background-color: rgb(160, 160, 160);
+    color: #fff;
+  }
+  #clear {
+    color: #fff;
+    background-color: rgb(247, 11, 11);
+  }
+  button {
+    border: none;
+    background-color: rgb(39, 36, 36);
+    padding: 9px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+  }
+.bottom-buttons :hover{
+  background-color: burlywood;
+  color: black;
+}
+
+.bottom-buttons {
+    display: flex;
+    margin-left: 100px;
+  }
